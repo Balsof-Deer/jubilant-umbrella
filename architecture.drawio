@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ═══════════════════════════════════════════════════════
+         LAYER LABELS (left side)
+    ═══════════════════════════════════════════════════════ -->
+    <mxCell id="lbl_client" value="CLIENT&#xa;LAYER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=11;fontColor=#7A0019;rotation=-90;" vertex="1" parent="1">
+      <mxGeometry x="30" y="130" width="80" height="120" as="geometry" />
+    </mxCell>
+    <mxCell id="lbl_api" value="API&#xa;LAYER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=11;fontColor=#7A0019;rotation=-90;" vertex="1" parent="1">
+      <mxGeometry x="30" y="430" width="80" height="120" as="geometry" />
+    </mxCell>
+    <mxCell id="lbl_data" value="DATA&#xa;LAYER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=11;fontColor=#7A0019;rotation=-90;" vertex="1" parent="1">
+      <mxGeometry x="30" y="730" width="80" height="120" as="geometry" />
+    </mxCell>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CLIENT LAYER CONTAINER
+    ═══════════════════════════════════════════════════════ -->
+    <mxCell id="client_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3F2;strokeColor=#7A0019;strokeWidth=2;arcSize=4;dashed=0;opacity=40;" vertex="1" parent="1">
+      <mxGeometry x="100" y="60" width="1050" height="200" as="geometry" />
+    </mxCell>
+    <mxCell id="client_title" value="CLIENT LAYER" style="text;html=1;align=left;verticalAlign=top;resizable=0;strokeColor=none;fillColor=none;fontStyle=1;fontSize=10;fontColor=#7A0019;" vertex="1" parent="1">
+      <mxGeometry x="116" y="70" width="120" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- User Dashboard box -->
+    <mxCell id="user_dash" value="&lt;b&gt;User Dashboard&lt;/b&gt;&lt;br&gt;BETAv2-USER&lt;br&gt;&lt;font color='#667085'&gt;React Native 0.81.5 / Expo v54&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7A0019;strokeWidth=2;arcSize=8;fontSize=12;verticalAlign=middle;spacingTop=0;" vertex="1" parent="1">
+      <mxGeometry x="160" y="110" width="340" height="110" as="geometry" />
+    </mxCell>
+
+    <!-- Staff Dashboard box -->
+    <mxCell id="staff_dash" value="&lt;b&gt;Staff Dashboard&lt;/b&gt;&lt;br&gt;BETAv2-STAFF&lt;br&gt;&lt;font color='#667085'&gt;React Native 0.81.5 / Expo v54&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7A0019;strokeWidth=2;arcSize=8;fontSize=12;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="620" y="110" width="340" height="110" as="geometry" />
+    </mxCell>
+
+    <!-- ═══════════════════════════════════════════════════════
+         API LAYER CONTAINER
+    ═══════════════════════════════════════════════════════ -->
+    <mxCell id="api_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FB;strokeColor=#344054;strokeWidth=2;arcSize=4;opacity=40;" vertex="1" parent="1">
+      <mxGeometry x="100" y="360" width="1050" height="310" as="geometry" />
+    </mxCell>
+    <mxCell id="api_title" value="API LAYER" style="text;html=1;align=left;verticalAlign=top;resizable=0;strokeColor=none;fillColor=none;fontStyle=1;fontSize=10;fontColor=#344054;" vertex="1" parent="1">
+      <mxGeometry x="116" y="370" width="100" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Spring Boot header -->
+    <mxCell id="sb_header" value="&lt;b&gt;Spring Boot REST API&lt;/b&gt;  ·  Java 21  ·  @CrossOrigin(origins = &quot;*&quot;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;strokeColor=none;fillColor=none;fontSize=12;fontColor=#101828;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="390" width="1050" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Controller boxes -->
+    <mxCell id="ctrl_userq" value="&lt;b&gt;UserQController&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;/api/userq/**&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#344054;strokeWidth=1.5;arcSize=10;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="130" y="440" width="210" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_tasks" value="&lt;b&gt;TaskListController&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;/api/tasks/**&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#344054;strokeWidth=1.5;arcSize=10;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="360" y="440" width="210" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_dept" value="&lt;b&gt;DepartmentController&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;/api/departments/**&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#344054;strokeWidth=1.5;arcSize=10;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="590" y="440" width="210" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_req" value="&lt;b&gt;RequirementController&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;/api/requirements/**&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#344054;strokeWidth=1.5;arcSize=10;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="820" y="440" width="210" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_desk" value="&lt;b&gt;ServiceDeskController&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;/api/serviceDesk/**&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#344054;strokeWidth=1.5;arcSize=10;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="240" y="550" width="210" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_auth" value="&lt;b&gt;AuthController&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;/api/auth/**&lt;/font&gt;&lt;br&gt;&lt;font color='#027A48' style='font-size:10px'&gt;BCrypt · Login · Register&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF3;strokeColor=#027A48;strokeWidth=1.5;arcSize=10;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="700" y="550" width="210" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- JPA / Hibernate label inside API box -->
+    <mxCell id="jpa_label" value="Spring Data JPA  /  Hibernate  (ORM)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;strokeColor=none;fillColor=none;fontSize=10;fontColor=#667085;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="100" y="638" width="1050" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- ═══════════════════════════════════════════════════════
+         DATA LAYER CONTAINER
+    ═══════════════════════════════════════════════════════ -->
+    <mxCell id="data_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F9FF;strokeColor=#026AA2;strokeWidth=2;arcSize=4;opacity=40;" vertex="1" parent="1">
+      <mxGeometry x="100" y="680" width="1050" height="260" as="geometry" />
+    </mxCell>
+    <mxCell id="data_title" value="DATA LAYER  ·  MySQL 8.x  (Database: ProjectSQL)" style="text;html=1;align=left;verticalAlign=top;resizable=0;strokeColor=none;fillColor=none;fontStyle=1;fontSize=10;fontColor=#026AA2;" vertex="1" parent="1">
+      <mxGeometry x="116" y="690" width="400" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- DB Table boxes -->
+    <mxCell id="tbl_userq" value="&lt;b&gt;userq&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;userID · taskID · taskName&lt;br&gt;createdAt · position&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#026AA2;strokeWidth=1.5;arcSize=8;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="130" y="720" width="220" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="tbl_tasklist" value="&lt;b&gt;tasklist&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;taskID · taskName · duration&lt;br&gt;availability · departmentID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#026AA2;strokeWidth=1.5;arcSize=8;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="370" y="720" width="220" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="tbl_dept" value="&lt;b&gt;departmentlist&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;departmentID&lt;br&gt;departmentName&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#026AA2;strokeWidth=1.5;arcSize=8;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="610" y="720" width="220" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="tbl_req" value="&lt;b&gt;requirements&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;taskID · document&lt;br&gt;(composite PK)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#026AA2;strokeWidth=1.5;arcSize=8;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="850" y="720" width="220" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="tbl_desk" value="&lt;b&gt;servicedesk&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;userID · taskID · taskName&lt;br&gt;position · (composite PK)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#026AA2;strokeWidth=1.5;arcSize=8;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="250" y="820" width="220" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="tbl_staff" value="&lt;b&gt;staffaccount&lt;/b&gt;&lt;br&gt;&lt;font color='#667085'&gt;staffID · username&lt;br&gt;password (BCrypt) · departmentID&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF3;strokeColor=#027A48;strokeWidth=1.5;arcSize=8;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="690" y="820" width="220" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- ═══════════════════════════════════════════════════════
+         ARROWS — CLIENT → API  (HTTP REST)
+    ═══════════════════════════════════════════════════════ -->
+    <mxCell id="arr_user_api" value="HTTP REST&#xa;port 8080" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#7A0019;strokeWidth=2;fontColor=#7A0019;fontSize=10;fontStyle=1;" edge="1" source="user_dash" target="api_bg" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="arr_staff_api" value="HTTP REST&#xa;port 8080" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#7A0019;strokeWidth=2;fontColor=#7A0019;fontSize=10;fontStyle=1;" edge="1" source="staff_dash" target="api_bg" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ARROW — API → DATA  (JPA / Hibernate) -->
+    <mxCell id="arr_api_db" value="JPA / Hibernate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#344054;strokeWidth=2;fontColor=#344054;fontSize=10;fontStyle=1;" edge="1" source="api_bg" target="data_bg" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ═══════════════════════════════════════════════════════
+         FK RELATIONSHIPS between tables (dashed)
+    ═══════════════════════════════════════════════════════ -->
+    <!-- tasklist → departmentlist -->
+    <mxCell id="fk_task_dept" value="FK: departmentID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;strokeColor=#026AA2;strokeWidth=1;fontColor=#026AA2;fontSize=9;" edge="1" source="tbl_tasklist" target="tbl_dept" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- requirements → tasklist -->
+    <mxCell id="fk_req_task" value="FK: taskID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;strokeColor=#026AA2;strokeWidth=1;fontColor=#026AA2;fontSize=9;" edge="1" source="tbl_req" target="tbl_tasklist" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- staffaccount → departmentlist -->
+    <mxCell id="fk_staff_dept" value="FK: departmentID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;strokeColor=#027A48;strokeWidth=1;fontColor=#027A48;fontSize=9;" edge="1" source="tbl_staff" target="tbl_dept" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="800" y="900" />
+          <mxPoint x="720" y="900" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- ═══════════════════════════════════════════════════════
+         LEGEND
+    ═══════════════════════════════════════════════════════ -->
+    <mxCell id="legend_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FB;strokeColor=#D0D5DD;strokeWidth=1;arcSize=6;" vertex="1" parent="1">
+      <mxGeometry x="1180" y="680" width="260" height="260" as="geometry" />
+    </mxCell>
+    <mxCell id="legend_title" value="Legend" style="text;html=1;align=left;verticalAlign=top;fontStyle=1;fontSize=12;fontColor=#101828;" vertex="1" parent="1">
+      <mxGeometry x="1196" y="692" width="100" height="20" as="geometry" />
+    </mxCell>
+
+    <mxCell id="leg1" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#7A0019;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="1196" y="724" width="30" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg1_lbl" value="Frontend App" style="text;html=1;fontSize=10;fontColor=#344054;" vertex="1" parent="1">
+      <mxGeometry x="1234" y="724" width="120" height="20" as="geometry" />
+    </mxCell>
+
+    <mxCell id="leg2" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#344054;strokeWidth=1.5;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="1196" y="756" width="30" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg2_lbl" value="API Controller" style="text;html=1;fontSize=10;fontColor=#344054;" vertex="1" parent="1">
+      <mxGeometry x="1234" y="756" width="120" height="20" as="geometry" />
+    </mxCell>
+
+    <mxCell id="leg3" value="" style="rounded=1;fillColor=#ECFDF3;strokeColor=#027A48;strokeWidth=1.5;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="1196" y="788" width="30" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg3_lbl" value="Auth (new in Beta v2)" style="text;html=1;fontSize=10;fontColor=#027A48;" vertex="1" parent="1">
+      <mxGeometry x="1234" y="788" width="150" height="20" as="geometry" />
+    </mxCell>
+
+    <mxCell id="leg4" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#026AA2;strokeWidth=1.5;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="1196" y="820" width="30" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg4_lbl" value="Database Table" style="text;html=1;fontSize=10;fontColor=#344054;" vertex="1" parent="1">
+      <mxGeometry x="1234" y="820" width="120" height="20" as="geometry" />
+    </mxCell>
+
+    <mxCell id="leg5_line" value="" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#7A0019;strokeWidth=2;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1196" y="862" as="sourcePoint" />
+        <mxPoint x="1226" y="862" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="leg5_lbl" value="HTTP REST call" style="text;html=1;fontSize=10;fontColor=#344054;" vertex="1" parent="1">
+      <mxGeometry x="1234" y="852" width="120" height="20" as="geometry" />
+    </mxCell>
+
+    <mxCell id="leg6_line" value="" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#026AA2;strokeWidth=1;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1196" y="894" as="sourcePoint" />
+        <mxPoint x="1226" y="894" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="leg6_lbl" value="Foreign Key relationship" style="text;html=1;fontSize=10;fontColor=#344054;" vertex="1" parent="1">
+      <mxGeometry x="1234" y="884" width="160" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- ═══════════════════════════════════════════════════════
+         TITLE
+    ═══════════════════════════════════════════════════════ -->
+    <mxCell id="diagram_title" value="UBotswana Queue Management System — System Architecture (Beta v2)" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=15;fontColor=#7A0019;" vertex="1" parent="1">
+      <mxGeometry x="100" y="10" width="1050" height="40" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

@@ -15,6 +15,7 @@ public class TaskList {
 
     // getters and setters
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "taskID")
     private Integer taskID;
 
